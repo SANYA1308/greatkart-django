@@ -2,7 +2,6 @@ from email.message import EmailMessage
 from email.policy import default
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
-
 from carts.models import CartItem
 from .forms import RegistrationForm
 from .models import Account

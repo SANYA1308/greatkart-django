@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'store.apps.StoreConfig',
     'carts.apps.CartsConfig',
+    'orders.apps.OrdersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -149,5 +150,14 @@ MESSAGE_TAGS = {
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'sanyagondi2002@gmail.com'
-EMAIL_HOST_PASSWORD = 'DAKSH2006'
+EMAIL_HOST_PASSWORD = 'Sanya@2002'
 EMAIL_USE_TLS = True
+
+
+RAZORPAY_API_KEY_ID = 'rzp_test_czTqJIzR1TP6im'
+RAZORPAY_API_KEY_SECRET = 'piXFJ22OKWbKXD7379LSNGpC'
+
+
+
+
+
